@@ -22,4 +22,7 @@ for (let rep = 0; rep < n; rep++) {
         default:
             break;
     }
+    num = parseInt(Math.random() * 10 + 1)
+
+    console.log("A sua carta é um "+ num + " de " + naipef)
 }
