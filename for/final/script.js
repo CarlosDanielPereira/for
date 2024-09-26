@@ -1,4 +1,4 @@
-let pessoas, lucro, lucrof = -1000, ingf = 0
+let pessoas, lucro, lucrof = 0, ingf = 0
 pessoas = parseInt(prompt("Quantas pessoas estão previstas de ir:"))
 for (let ing = 150; ing > 0; ing -= 10) {
     lucro = (ing * pessoas) - 1000
